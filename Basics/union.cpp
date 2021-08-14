@@ -1,4 +1,4 @@
-// Demo of union 
+// Demo of union : stores only one value at a time
 #include <iostream>
 using namespace std;
 
