@@ -40,6 +40,12 @@ class derived3 : private base {
     derived3() {
     // cout << "J and K : " << j << " " <<k <<endl;
     cout << "No value is accessible " <<endl;
+
+    // but using grant access method
+
+    base::j,k;
+
+    cout << "using the grant option J and K : " << j << " " <<k <<endl;
     }
 };
 
